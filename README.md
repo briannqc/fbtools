@@ -1,19 +1,20 @@
 # About
 
 If you have been using Facebook for years like me, you have probably posted many many posts. You wish Facebook
-has a magic `Change all my posts' privacy to ONLY ME` button. Unfortunately, Mark and his team never give never
-give us such button and kill themselve.
+has a magic `Change all my posts' privacy to ONLY ME` button. Unfortunately, Mark and his team will never
+give us such button and kill themselves.
 
 This tool helps you download your facebook feeds and albums, filter out non-only-me (such as public, friends and
 custom) posts, it then iterates these posts, gives you a chance to review your 'abandoned' posts. You can either
-delete your posts, make them 'Only Me' or simply leave them there.
+delete your posts, make them 'Only Me' or simply leave them there if you want to.
 
+# TODO
 This oversimplified tool is not fully automated yet, I couldn't find any API to change post's privacy programmatically.
 
 # Usage
 ## Generate Access Token
 
-**Prerequisite** You must be a Facebook developer first.
+**Prerequisite** You must be a Facebook developer first, but it just takes you a few clicks to become a FB developer.
 
 To generate an access token, you can go to [Graph API Explorer](https://developers.facebook.com/tools/explorer/).
 Your token should have `users_posts` and `users_photos` permission.
