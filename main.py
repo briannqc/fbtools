@@ -15,7 +15,7 @@ def process_feeds():
     not_self_posts_2D = np.resize(not_self_posts, new_size).reshape(-1, 5)
     for window in not_self_posts_2D:
         for p in window:
-            wb.get('safari').open(p['permalink_url'])
+            wb.open(p['permalink_url'])
         input("Press enter to continue...")
 
 
@@ -31,7 +31,7 @@ def process_albums():
     not_self_albums_2D = np.resize(not_self_albums, new_size).reshape(-1, 5)
     for window in not_self_albums_2D:
         for p in window:
-            wb.get('safari').open(p['link'])
+            wb.open(p['link'])
         input("Press enter to continue...")
 
 
